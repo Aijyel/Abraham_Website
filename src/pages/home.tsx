@@ -12,7 +12,7 @@ const Home = () => {
             <div className="rounded-full overflow-hidden border-4 border-starry-gold/20 w-48 h-48">
               <Avatar className="w-full h-full">
                 <AvatarImage 
-                  src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?crop=faces&cs=tinysrgb&fit=crop&h=300&w=300" 
+                  src="pic.HEIC" 
                   alt="Jia Lyell C. Abraham" 
                   className="object-cover" 
                 />
