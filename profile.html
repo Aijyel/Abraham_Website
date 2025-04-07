@@ -328,7 +328,7 @@
         
         // Hide all tab content
         const tabContents = document.querySelectorAll('.tab-content');
-        tabContents.forEach(content => tabContent.classList.add('hidden'));
+        tabContents.forEach(content => content.classList.add('hidden'));
         
         // Show selected tab content
         const tabContent = document.querySelector(`.tab-content.${tab.dataset.tab}`);
