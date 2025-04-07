@@ -116,7 +116,7 @@
             <button class="tab" data-tab="certifications">Certifications</button>
           </div>
           
-          <div class="tab-content.skills mt-6 block">
+          <div class="tab-content skills mt-6 block">
             <div class="content-card border-starry-teal/20">
               <div class="p-6">
                 <h3 class="text-xl font-semibold text-starry-gold">Technical Proficiency</h3>
@@ -207,7 +207,7 @@
             </div>
           </div>
           
-          <div class="tab-content.education mt-6 hidden">
+          <div class="tab-content education mt-6 hidden">
             <div class="content-card border-starry-teal/20">
               <div class="p-6">
                 <h3 class="text-xl font-semibold text-starry-gold">Educational Background</h3>
@@ -234,7 +234,7 @@
             </div>
           </div>
           
-          <div class="tab-content.certifications mt-6 hidden">
+          <div class="tab-content certifications mt-6 hidden">
             <div class="content-card border-starry-teal/20">
               <div class="p-6">
                 <h3 class="text-xl font-semibold text-starry-gold">Professional Certifications</h3>
@@ -334,7 +334,7 @@
         const tabContent = document.querySelector(`.tab-content.${tab.dataset.tab}`);
         if (tabContent) {
           tabContent.classList.remove('hidden');
-          tabContent.classList.display = 'block';
+          tabContent.classList.add('block');
         }
       });
     });
